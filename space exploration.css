@@ -1,0 +1,39 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:black;
+    color: bisque;}
+h1{
+    color: aquamarine;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+}
+ul>li{
+    font-weight: bold;
+}
+ul :nth-child(1){
+    background-color:rgb(49, 44, 44);
+}
+ul :nth-child(3){
+    background-color:rgb(49, 44, 44);
+}
+ul :nth-child(5){
+    background-color:rgb(49, 44, 44);
+}
+ul :nth-child(7){
+    background-color:rgb(49, 44, 44);
+}
+ul li::before{
+    content: "🚀";
+}
+a::after{
+    content: "🌌";
+}
+p::first-letter{
+    font-size: 200%;
+    color: brown;
+}
